@@ -81,8 +81,7 @@
     background-image: url(../images/profile-image.jpg);
     background-position: center;
     background-size: cover;
-    border: 8px solid #FFFFFF;
-    border-radius: 50%;
+    border-radius: 25%;
     position: absolute;
     top: 110px;
     left: 50%;
@@ -135,14 +134,14 @@
 }
 
 .primary-heading {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 300;
     letter-spacing: 4px;
-    text-transform: uppercase;
     line-height: 1.2;
 }
 
 .primary-heading-bold {
+    font-size: 48px;
     display: block;
 }
 
@@ -240,6 +239,11 @@
     font-size: 36px;
     font-weight: 300;
     line-height: 1.2;
+    display: grid;
+}
+
+.section-3-subtitle {
+    font-size: 24px;
 }
 
 .section-3-para {
@@ -522,8 +526,8 @@
 
 .section-5 {
     padding: 170px 0px 170px 0px;
-    background-image: url(../images/footer-img.jpg);
-    background-position: top;
+    background-image: url(../images/footer-image.jpg);
+    background-position: 50% 25%;
     background-size: cover;
     position: relative;
 }
@@ -621,7 +625,7 @@
 /* FOOTER */
 
 .footer {
-    padding: 50px 50px 30px 50px !important;
+    padding: 10px !important;
     background-color: #000000;
 }
 
@@ -629,12 +633,12 @@
     color: #FFFFFF;
 }
 
+.footer-copyright {
+    font-size: 12px;
+}
+
 @media (max-width: 426px) {
     .footer {
         padding: 30px 30px 20px 30px !important;
-    }
-
-    .footer-text {
-        font-size: 12px;
     }
 }
